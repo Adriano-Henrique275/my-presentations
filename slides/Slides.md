@@ -56,8 +56,6 @@ O algoritmo de Floyd-Warshall é um algoritmo de programação dinâmica utiliza
 <!-- Can also do a multiline
 comment that will show in notes -->
 
-![Image](https://picsum.photos/800/600)
-
 ---
 
 ## Algoritmo de Floyd-Warshall
@@ -85,7 +83,7 @@ O algoritmo de Floyd-Warshall tem uma complexidade de tempo de O(n^3), onde n é
 
 ## Grafo
 
-Exemplo: Grafo ponderado com arestas de peso
+## Exemplo: Grafo ponderado com arestas de peso
 
 ![width:27cm height:14cm fit](./img/grafo.jpeg)
 

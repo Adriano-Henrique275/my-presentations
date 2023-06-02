@@ -9,6 +9,8 @@
 - Arom Vinicius
 - Eduardo Rosalin
 
+[View](./slides/Slides.md)
+
 # Algoritmo de Floyd-Warshall
 
 O algoritmo de Floyd-Warshall é um algoritmo de programação dinâmica utilizado para encontrar os caminhos mais curtos entre todos os pares de vértices em um grafo ponderado com arestas de peso positivo ou negativo.
