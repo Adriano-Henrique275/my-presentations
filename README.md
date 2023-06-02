@@ -9,7 +9,7 @@
 - Arom Vinicius
 - Eduardo Rosalin
 
-[View](./slides/Slides.md)
+[See a preview](http://chris-ayers.com/marp-slides-template/)
 
 # Algoritmo de Floyd-Warshall
 
