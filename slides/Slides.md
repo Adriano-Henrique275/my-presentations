@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-footer: 'https://example.com'
+
 style: |
   .columns {
     display: grid;
@@ -32,12 +32,14 @@ style: |
   @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
 ---
 
-# My Presentation
+# Teste
+
 ![bg right](https://picsum.photos/800/600)
 
 ---
 
 <!-- Speaker Notes -->
+
 ## Slide 1
 
 - Item 1
@@ -48,6 +50,7 @@ style: |
 ---
 
 ## Slide 2
+
 <!-- Can also do a multiline
 comment that will show in notes -->
 
@@ -71,6 +74,7 @@ comment that will show in notes -->
 ---
 
 ![bg opacity](https://picsum.photos/800/600?image=53)
+
 ## Slide 5
 
 <div class="columns">
@@ -96,11 +100,11 @@ comment that will show in notes -->
 
 ## Slide 6
 
-<i class="fa-brands fa-twitter"></i> Twitter: 
-<i class="fa-brands fa-mastodon"></i> Mastodon: 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa fa-window-maximize"></i> Blog: 
-<i class="fa-brands fa-github"></i> GitHub: 
+<i class="fa-brands fa-twitter"></i> Twitter:
+<i class="fa-brands fa-mastodon"></i> Mastodon:
+<i class="fa-brands fa-linkedin"></i> LinkedIn:
+<i class="fa fa-window-maximize"></i> Blog:
+<i class="fa-brands fa-github"></i> GitHub:
 
 ---
 
