@@ -32,7 +32,7 @@ style: |
   @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
 ---
 
-# Teste
+# Algoritmo de Floyd-Warshall
 
 ![bg right](https://picsum.photos/800/600)
 
@@ -40,16 +40,18 @@ style: |
 
 <!-- Speaker Notes -->
 
-## Slide 1
+## Projeto desenvolvido pelos alunos:
 
-- Item 1
-- Item 2
-- Item 3
+- Adriano Henrique
+- Arom Vinicius
+- Eduardo Rosalin
 <!-- Can have multiple on a slide -->
 
 ---
 
-## Slide 2
+## Algoritmo de Floyd-Warshall
+
+O algoritmo de Floyd-Warshall é um algoritmo de programação dinâmica utilizado para encontrar os caminhos mais curtos entre todos os pares de vértices em um grafo ponderado com arestas de peso positivo ou negativo.
 
 <!-- Can also do a multiline
 comment that will show in notes -->
@@ -58,40 +60,41 @@ comment that will show in notes -->
 
 ---
 
-## Slide 3
+## Algoritmo de Floyd-Warshall
 
-> This is a quote.
-
----
-
-## Slide 4
-
-| Column 1 | Column 2 |
-| -------- | -------- |
-| Item 1   | Item 2   |
-| Item 3   | Item 4   |
+O algoritmo funciona criando uma matriz de distâncias entre todos os pares de vértices, onde o elemento (i, j) dessa matriz representa a menor distância entre o vértice i e o vértice j. Inicialmente, essa matriz é preenchida com as distâncias das arestas do grafo. Em seguida, o algoritmo verifica se existe um caminho de i a j passando por um vértice k com distância menor do que a distância direta entre i e j. Se houver tal caminho, a distância entre i e j é atualizada com a distância do caminho i → k → j.
 
 ---
 
-![bg opacity](https://picsum.photos/800/600?image=53)
+## Algoritmo de Floyd-Warshall
 
-## Slide 5
+O algoritmo executa essa verificação para cada par de vértices (i, j) e para cada vértice k no grafo. O algoritmo atualiza a matriz de distâncias em cada iteração, de modo que a matriz final contém as distâncias mais curtas entre todos os pares de vértices.
+
+---
+
+## Algoritmo de Floyd-Warshall
+
+O algoritmo de Floyd-Warshall tem uma complexidade de tempo de O(n^3), onde n é o número de vértices no grafo. Ele é útil em muitas aplicações, como encontrar o menor caminho entre dois pontos em um mapa ou otimizar rotas em uma rede de transporte.
+
+---
+
+## Example:
 
 <div class="columns">
 <div>
 
-## Left
+## Grafo
 
-- 1
-- 2
+Exemplo: Grafo ponderado com arestas de peso
+
+![width:27cm height:14cm fit](./img/grafo.jpeg)
 
 </div>
 <div>
 
-## Right
+## Exemplo: Grafo ponderado com arestas de peso
 
-- 3
-- 4
+![width:27cm height:14cm fit](./img/verifica.jpeg)
 
 </div>
 </div>
@@ -108,22 +111,4 @@ comment that will show in notes -->
 
 ---
 
-# <!--fit--> Large Text
-
 ---
-
-<!-- Needed for mermaid, can be anywhere in file except frontmatter -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-# Mermaid
-
-<div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-</div>
